@@ -3,6 +3,6 @@ spring:
     name: hr-worker
   cloud:
     config:
-      uri: http://localhost:8888        profiles:    active: test
+      uri: http://localhost:8888        profiles:    active: dev
     
 management:  endpoints:    web:      exposure:        include: "*"
